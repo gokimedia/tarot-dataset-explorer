@@ -1,0 +1,16 @@
+{
+  "name": "deckaura-tarot-dataset-explorer",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Interactive explorer for the open Deckaura 78-card tarot dataset.",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "homepage": "https://deckaura.com/pages/tarot-card-database",
+  "license": "MIT"
+}
+

@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Explore the open Deckaura tarot card meanings dataset." />
+    <title>Deckaura Tarot Dataset Explorer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <p class="eyebrow">OPEN DATA · 78 CARDS · CC BY 4.0</p>
+      <h1>Tarot Dataset Explorer</h1>
+      <p class="lede">Search upright, reversed, love, and career meanings from Deckaura's structured tarot dataset.</p>
+      <nav>
+        <a class="primary" href="https://deckaura.com/pages/tarot-card-database" target="_blank" rel="noopener noreferrer">Explore the full Deckaura database</a>
+        <a href="https://deckaura.com/pages/ai-data-sources" target="_blank" rel="noopener noreferrer">Data & citation details</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="controls" aria-label="Dataset filters">
+        <label>
+          Search the cards
+          <input id="search" type="search" placeholder="Try The Fool, love, change…" autocomplete="off" />
+        </label>
+        <label>
+          Arcana
+          <select id="arcana">
+            <option value="all">All 78 cards</option>
+            <option value="Major">Major Arcana</option>
+            <option value="Minor">Minor Arcana</option>
+          </select>
+        </label>
+      </section>
+
+      <div class="status-row">
+        <p id="status" role="status">Loading the open dataset…</p>
+        <a href="https://huggingface.co/datasets/Blacik/deckaura-tarot-card-meanings" target="_blank" rel="noopener noreferrer">View on Hugging Face ↗</a>
+      </div>
+      <section id="cards" class="grid" aria-live="polite"></section>
+    </main>
+
+    <footer>
+      <p>Data and interpretations by <a href="https://deckaura.com" target="_blank" rel="noopener noreferrer">Deckaura</a>.</p>
+      <p><a href="https://doi.org/10.5281/zenodo.19475329" target="_blank" rel="noopener noreferrer">Permanent DOI archive</a> · <a href="https://github.com/gokimedia/tarot-mcp-server" target="_blank" rel="noopener noreferrer">Source and MCP server</a></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.5.3/papaparse.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
