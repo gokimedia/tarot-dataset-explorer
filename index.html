@@ -5,10 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Explore the open Deckaura tarot card meanings dataset." />
     <title>Deckaura Tarot Dataset Explorer</title>
+    <link rel="canonical" href="https://gokimedia.github.io/tarot-dataset-explorer/" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Deckaura Tarot Dataset Explorer",
+        "url": "https://gokimedia.github.io/tarot-dataset-explorer/",
+        "applicationCategory": "DeveloperApplication",
+        "isAccessibleForFree": true,
+        "license": "https://opensource.org/license/mit",
+        "isBasedOn": "https://doi.org/10.5281/zenodo.19475329",
+        "about": {
+          "@type": "Dataset",
+          "name": "Deckaura Tarot Card Meanings Dataset",
+          "url": "https://huggingface.co/datasets/Blacik/deckaura-tarot-card-meanings",
+          "identifier": "https://doi.org/10.5281/zenodo.19475329"
+        },
+        "sameAs": [
+          "https://deckaura.com/pages/ai-data-sources",
+          "https://gokimedia.github.io/deckaura-developer-docs/",
+          "https://registry.modelcontextprotocol.io/v0.1/servers?search=io.github.gokimedia%2Ftarot-mcp-server"
+        ]
+      }
+    </script>
   </head>
   <body>
     <header class="hero">
@@ -18,6 +42,7 @@
       <nav>
         <a class="primary" href="https://deckaura.com/pages/tarot-card-database" target="_blank" rel="noopener noreferrer">Explore the full Deckaura database</a>
         <a href="https://deckaura.com/pages/ai-data-sources" target="_blank" rel="noopener noreferrer">Data & citation details</a>
+        <a href="https://gokimedia.github.io/deckaura-developer-docs/">Developer documentation</a>
       </nav>
     </header>
 
@@ -46,7 +71,7 @@
 
     <footer>
       <p>Data and interpretations by <a href="https://deckaura.com" target="_blank" rel="noopener noreferrer">Deckaura</a>.</p>
-      <p><a href="https://doi.org/10.5281/zenodo.19475329" target="_blank" rel="noopener noreferrer">Permanent DOI archive</a> · <a href="https://github.com/gokimedia/tarot-mcp-server" target="_blank" rel="noopener noreferrer">Source and MCP server</a></p>
+      <p><a href="https://doi.org/10.5281/zenodo.19475329" target="_blank" rel="noopener noreferrer">Permanent DOI archive</a> · <a href="https://registry.modelcontextprotocol.io/v0.1/servers?search=io.github.gokimedia%2Ftarot-mcp-server" target="_blank" rel="noopener noreferrer">Official MCP Registry</a> · <a href="https://github.com/gokimedia/tarot-mcp-server/releases" target="_blank" rel="noopener noreferrer">Verified MCPB releases</a></p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/papaparse@5.5.3/papaparse.min.js"></script>
