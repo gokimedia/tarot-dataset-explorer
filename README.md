@@ -46,6 +46,9 @@ hf upload Blacik/deckaura-tarot-dataset-explorer . . --repo-type space --include
 - [Deckaura Open Data & AI Resources](https://deckaura.com/pages/ai-data-sources)
 - [Hugging Face dataset](https://huggingface.co/datasets/Blacik/deckaura-tarot-card-meanings)
 - [Permanent DOI archive](https://doi.org/10.5281/zenodo.19475329)
+- [Deckaura developer documentation](https://gokimedia.github.io/deckaura-developer-docs/)
+- [Official Deckaura Tarot MCP Registry record](https://registry.modelcontextprotocol.io/v0.1/servers?search=io.github.gokimedia%2Ftarot-mcp-server)
+- [Verified MCPB releases](https://github.com/gokimedia/tarot-mcp-server/releases)
 
 GitHub's **Cite this repository** panel is configured through [`CITATION.cff`](CITATION.cff).
 
