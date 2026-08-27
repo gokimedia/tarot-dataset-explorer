@@ -2,6 +2,8 @@
 
 An interactive browser for the open 78-card tarot dataset published by [Deckaura](https://deckaura.com).
 
+The explorer and its bundled dataset are available under the MIT License.
+
 ## Features
 
 - Search across upright, reversed, love, and career meanings
