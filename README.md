@@ -1,3 +1,15 @@
+---
+title: Deckaura Tarot Dataset Explorer
+emoji: 🔮
+colorFrom: purple
+colorTo: indigo
+sdk: static
+app_file: index.html
+pinned: false
+license: mit
+short_description: Search Deckaura's open 78-card tarot dataset.
+---
+
 # Deckaura Tarot Dataset Explorer
 
 An interactive browser for the open 78-card tarot dataset published by [Deckaura](https://deckaura.com).
