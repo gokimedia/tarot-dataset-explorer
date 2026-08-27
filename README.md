@@ -31,6 +31,15 @@ npm start
 
 Then open `http://localhost:3000`.
 
+## Publish as a Hugging Face Space
+
+The repository card is configured for Hugging Face's free static Space SDK. After authenticating as `Blacik`, publish the same files with:
+
+```bash
+hf repo create Blacik/deckaura-tarot-dataset-explorer --repo-type space --space_sdk static --exist-ok
+hf upload Blacik/deckaura-tarot-dataset-explorer . . --repo-type space --include README.md CITATION.cff index.html app.js styles.css
+```
+
 ## Sources
 
 - [Deckaura Tarot Card Database](https://deckaura.com/pages/tarot-card-database)
