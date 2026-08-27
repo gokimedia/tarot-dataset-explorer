@@ -26,3 +26,5 @@ Then open `http://localhost:3000`.
 - [Hugging Face dataset](https://huggingface.co/datasets/Blacik/deckaura-tarot-card-meanings)
 - [Permanent DOI archive](https://doi.org/10.5281/zenodo.19475329)
 
+GitHub's **Cite this repository** panel is configured through [`CITATION.cff`](CITATION.cff).
+

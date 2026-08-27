@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this dataset or explorer, please cite the archived dataset below."
+title: "Tarot Card Meanings: A Complete 78-Card Semantic Dataset"
+type: dataset
+authors:
+  - given-names: Selin
+    family-names: Aura
+    affiliation: Deckaura
+  - name: Deckaura
+    website: "https://deckaura.com"
+version: 1.0.0
+date-released: 2026-04-08
+license: MIT
+doi: 10.5281/zenodo.19475329
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.19475329
+    description: "Permanent Zenodo archive"
+repository-code: "https://github.com/gokimedia/tarot-dataset-explorer"
+url: "https://deckaura.com/pages/ai-data-sources"
